@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: ghostwhite;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 1em auto;
+    padding: 20px;
+    background-color: midnightblue;
+}
+
+button {
+    background-color: silver;
+    color: black;
+    border: outset 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: gray;
+}
+
+button:active {
+    border-style: inset;
+}
+
+/*--------------------------------------------------*/
+
+#color {
+    height: 3.3em;
+    margin: 0px 30px;
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+
+#quote {
+    font-family: cursive;
+}

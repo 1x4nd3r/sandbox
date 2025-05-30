@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello JS!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Color switch</h3>
+        <button onclick="setColor('red')" id="red" style="background: palevioletred;">Red</button>
+        <button onclick="setColor('yellow')" id="yellow" style="background: palegoldenrod;">Yellow</button>
+        <button onclick="setColor('green')" id="green" style="background: palegreen;">Green</button>
+        <button onclick="rndColor()" id="random" style="background: paleturquoise;">RNG</button>
+        <button onclick="setColor('silver')" id="color">Color selected
+    </div>
+    </div>
+
+    <div class="container">
+        <h3>Password identification</h3>
+        <input type="text" placeholder="Password" id="inp1" />
+        <button onclick="check()">Check</button>
+    </div>
+
+    <div class="container">
+        <h3>Quote maker</h3>
+        <p id="quote"></p>
+        <button onclick="genQuote()">Generate Quote</button>
+    </div>
+
+    <div class="container">
+        <h3>Quote maker #2</h3>
+        <p id="subj"></p>
+        <p id="verb"></p>
+        <p id="owner"></p>
+        <p id="obj"></p>
+        <p id="ending"></p>
+        <button onclick="genQuote2()">Generate Quote</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

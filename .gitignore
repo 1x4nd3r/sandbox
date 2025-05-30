@@ -1,0 +1,8 @@
+**/.vscode/
+*.obj
+*.pdb
+*.asm
+*.map
+*.pch
+*.ilk
+*.mp3
