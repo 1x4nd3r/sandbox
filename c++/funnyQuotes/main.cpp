@@ -85,7 +85,7 @@ std::vector<std::string> verb =
     "rescued", 
     "befriended", 
     "enchanted", 
-    "transformed"
+    "licked"
 };
 
 std::vector<std::string> adverb =
@@ -106,7 +106,7 @@ std::vector<std::string> adverb =
     "mysteriously", 
     "fiercely", 
     "brilliantly", 
-    "haphazardly", 
+    "silently", 
     "innocently", 
     "reluctantly"
 };
@@ -116,13 +116,10 @@ std::vector<std::string> punctuation =
     "!", 
     "?", 
     ".", 
-    "...", 
-    "..?", 
+    "..."
     "!!!", 
-    "???", 
-    "-", 
-    "~", 
-    "!~"
+    "???",
+    "~"
 };
 
 void generateSentence()
